@@ -1,5 +1,5 @@
 # Lake Mead Water Level Forecast
-This is an example of how to forecast the water level of Lake Mead using two different models, ARIMA and LSTM, and then combining their forecasts using an ensemble method. It also creates a probabilistic fan chart to visualize the uncertainty in the forecast. I intend to expand this project to take into consideration of other exogeneous variables and likely will peform a Python variant of this project.
+This is an example of how to forecast the water level of Lake Mead using two different models, ARIMA and LSTM, and then combining their forecasts using an ensemble method. It also creates a probabilistic fan chart to visualize the uncertainty in the forecast. I intend to expand this project to take into consideration of other exogeneous variables and likely will make a Python variant of this project.
 
 ## Data
 The data used in this project is the water level of Lake Mead, which is obtained using the crb_data function from the colorado library. The data spans from January 1st, 2000 to January 1st, 2022, and is split into a training set and a testing set.
